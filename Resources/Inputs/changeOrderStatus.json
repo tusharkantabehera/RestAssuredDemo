@@ -1,0 +1,12 @@
+{
+    "id": "GB10002834",
+    "type": "ORDER",
+    "status": "DELIVERED",
+    "orderInvoice": {},
+    "expectedDeliveryDate": null,
+    "deliveredDate": "",
+    "shipperName": "",
+    "trackingURL": "",
+    "shippingMode": "DEFAULT",
+    "level": "PARENT"
+}
