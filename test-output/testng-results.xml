@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-08T12:01:21 IST" name="Default suite" finished-at="2021-03-08T12:01:29 IST" duration-ms="8315">
+  <suite started-at="2021-03-08T14:28:24 IST" name="Default suite" finished-at="2021-03-08T14:28:33 IST" duration-ms="8942">
     <groups>
     </groups>
-    <test started-at="2021-03-08T12:01:21 IST" name="Default test" finished-at="2021-03-08T12:01:29 IST" duration-ms="8315">
+    <test started-at="2021-03-08T14:28:24 IST" name="Default test" finished-at="2021-03-08T14:28:33 IST" duration-ms="8942">
       <class name="qalaraOrderDetails.getOrderDetails">
-        <test-method signature="getOrder()[pri:0, instance:qalaraOrderDetails.getOrderDetails@482bce4f]" started-at="2021-03-08T12:01:21 IST" name="getOrder" finished-at="2021-03-08T12:01:29 IST" duration-ms="8264" status="PASS">
+        <test-method signature="getOrder()[pri:0, instance:qalaraOrderDetails.getOrderDetails@482bce4f]" started-at="2021-03-08T14:28:24 IST" name="getOrder" finished-at="2021-03-08T14:28:33 IST" duration-ms="8899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrder -->

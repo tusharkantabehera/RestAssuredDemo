@@ -20,7 +20,7 @@ public class Base {
 		
 		try 
 		{
-			fis = new FileInputStream(".\\src\\main\\java\\net\\assuresign\\configs\\global.properties");
+			fis = new FileInputStream(".\\src\\main\\java\\net\\assuresign\\configs\\QA.properties");
 			prop=new Properties();
 			prop.load(fis);
 			log.info("Properties file loaded");

@@ -7,46 +7,39 @@ import io.restassured.specification.RequestSpecification;
 import net.assuresign.base.Base;
 
 public class RESTCalls extends Base{
-	/*
-	 * This call will be resposible to fire requests
-	 */
-
 
 	public static Response GETRequest(String uRI) {
 		
 		log.info("Inside GETRequest call");
 		
-		RequestSpecification requestSpecification = RestAssured.given();
-		requestSpecification.contentType(ContentType.JSON);
-		Response response = requestSpecification.get(uRI);
-		log.debug(requestSpecification.log().all());
+		String token = prop.getProperty("token");
+		RequestSpecification request= RestAssured.given().header("Authorization", "Bearer "+ token);;
+		request.contentType(ContentType.JSON);
+		Response response = request.get(uRI);
+		log.debug(request.log().all());
 		return response;
 	}
 
 	public static Response POSTRequest(String uRI, String strJSON) {
 		log.info("Inside POSTRequest call");
-		RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
-		requestSpecification.contentType(ContentType.JSON);
-		Response response = requestSpecification.post(uRI);
-		log.debug(requestSpecification.log().all());
-		return response;
-	}
-	
-	public static Response POSTRequest(String uRI, String strJSON, String sessionID) {
-		log.info("Inside POSTRequest call");
-		RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
-		requestSpecification.contentType(ContentType.JSON);
-		requestSpecification.header("cookie", "JSESSIONID=" + sessionID+"");
-		Response response = requestSpecification.post(uRI);
-		log.debug(requestSpecification.log().all());
+		
+		String token = prop.getProperty("token");
+		RequestSpecification request= RestAssured.given().header("Authorization", "Bearer "+ token);;
+		request.contentType(ContentType.JSON);
+		request.body(strJSON);
+		Response response = request.post(uRI);
+		log.debug(request.log().all());
 		return response;
 	}
 	
 
 	public static Response PUTRequest(String uRI, String strJSON) {
 		log.info("Inside PUTRequest call");
-		RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
+		String token = prop.getProperty("token");
+		
+		RequestSpecification requestSpecification = RestAssured.given().header("Authorization", "Bearer "+ token);
 		requestSpecification.contentType(ContentType.JSON);
+		requestSpecification.body(strJSON);
 		Response response = requestSpecification.put(uRI);
 		log.debug(requestSpecification.log().all());
 		return response;
