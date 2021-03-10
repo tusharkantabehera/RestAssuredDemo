@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qalaraOrderDetails.getOrderDetails">
+      <class name="assureSignTest.TestAPI">
         <methods>
-          <include name="getOrder"/>
+          <include name="setExtent"/>
+          <include name="tearDown"/>
+          <include name="submitSign"/>
+          <include name="endReport"/>
         </methods>
-      </class> <!-- qalaraOrderDetails.getOrderDetails -->
+      </class> <!-- assureSignTest.TestAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

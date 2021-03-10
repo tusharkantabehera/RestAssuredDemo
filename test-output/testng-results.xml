@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-08T14:28:24 IST" name="Default suite" finished-at="2021-03-08T14:28:33 IST" duration-ms="8942">
+  <suite started-at="2021-03-10T11:12:49 IST" name="Default suite" finished-at="2021-03-10T11:12:55 IST" duration-ms="5219">
     <groups>
     </groups>
-    <test started-at="2021-03-08T14:28:24 IST" name="Default test" finished-at="2021-03-08T14:28:33 IST" duration-ms="8942">
-      <class name="qalaraOrderDetails.getOrderDetails">
-        <test-method signature="getOrder()[pri:0, instance:qalaraOrderDetails.getOrderDetails@482bce4f]" started-at="2021-03-08T14:28:24 IST" name="getOrder" finished-at="2021-03-08T14:28:33 IST" duration-ms="8899" status="PASS">
+    <test started-at="2021-03-10T11:12:49 IST" name="Default test" finished-at="2021-03-10T11:12:55 IST" duration-ms="5219">
+      <class name="assureSignTest.TestAPI">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:49 IST" name="setExtent" finished-at="2021-03-10T11:12:50 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getOrder -->
-      </class> <!-- qalaraOrderDetails.getOrderDetails -->
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="reportUp(org.testng.ITestResult)[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:50 IST" name="reportUp" finished-at="2021-03-10T11:12:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAPI.getTokenBearer()[pri:0, instance:assureSignTest.TestAPI@693fe6c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportUp -->
+        <test-method signature="getTokenBearer()[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:50 IST" name="getTokenBearer" finished-at="2021-03-10T11:12:54 IST" duration-ms="4794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTokenBearer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:54 IST" name="tearDown" finished-at="2021-03-10T11:12:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTokenBearer status=SUCCESS method=TestAPI.getTokenBearer()[pri:0, instance:assureSignTest.TestAPI@693fe6c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="reportUp(org.testng.ITestResult)[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:54 IST" name="reportUp" finished-at="2021-03-10T11:12:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAPI.submitSign()[pri:0, instance:assureSignTest.TestAPI@693fe6c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportUp -->
+        <test-method signature="submitSign()[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:54 IST" name="submitSign" finished-at="2021-03-10T11:12:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitSign -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:54 IST" name="tearDown" finished-at="2021-03-10T11:12:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitSign status=SUCCESS method=TestAPI.submitSign()[pri:0, instance:assureSignTest.TestAPI@693fe6c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:assureSignTest.TestAPI@693fe6c9]" started-at="2021-03-10T11:12:54 IST" name="endReport" finished-at="2021-03-10T11:12:55 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- assureSignTest.TestAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
