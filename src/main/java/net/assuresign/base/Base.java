@@ -16,7 +16,7 @@ public class Base {
 	{
 		log=Logger.getLogger("Assuresign");
 		FileInputStream fis;
-		
+		System.out.println("+++++++++++++++++++++++++++++++++++");
 		
 		try 
 		{

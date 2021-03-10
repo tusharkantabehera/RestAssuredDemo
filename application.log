@@ -1,0 +1,308 @@
+2021-03-10 16:12:07,220  INFO [main] Assuresign:26 - Properties file loaded
+2021-03-10 16:12:07,384  INFO [main] Assuresign:35 - Payload generated
+2021-03-10 16:12:08,659 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://account.assuresign.net:443
+2021-03-10 16:12:09,023 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to account.assuresign.net:443
+2021-03-10 16:12:11,142 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-03-10 16:12:11,144 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-03-10 16:12:11,145 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-03-10 16:12:11,147 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-03-10 16:12:11,148 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-03-10 16:12:11,148 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:12:11,149 DEBUG [main] wire:73 -  >> "POST /api/v3.7/authentication/apiUser HTTP/1.1[\r][\n]"
+2021-03-10 16:12:11,150 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-03-10 16:12:11,150 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-03-10 16:12:11,151 DEBUG [main] wire:73 -  >> "Content-Length: 232[\r][\n]"
+2021-03-10 16:12:11,151 DEBUG [main] wire:73 -  >> "Host: account.assuresign.net[\r][\n]"
+2021-03-10 16:12:11,151 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-03-10 16:12:11,152 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)[\r][\n]"
+2021-03-10 16:12:11,152 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-03-10 16:12:11,153 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-03-10 16:12:11,153 DEBUG [main] headers:278 - >> POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:12:11,153 DEBUG [main] headers:281 - >> Accept: */*
+2021-03-10 16:12:11,153 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-03-10 16:12:11,153 DEBUG [main] headers:281 - >> Content-Length: 232
+2021-03-10 16:12:11,154 DEBUG [main] headers:281 - >> Host: account.assuresign.net
+2021-03-10 16:12:11,154 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-03-10 16:12:11,154 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)
+2021-03-10 16:12:11,155 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-03-10 16:12:11,155 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2021-03-10 16:12:11,155 DEBUG [main] wire:73 -  >> "  "request": {[\r][\n]"
+2021-03-10 16:12:11,156 DEBUG [main] wire:73 -  >> "    "apiUsername": "TestAPIAutomation_FxW9nmNf",[\r][\n]"
+2021-03-10 16:12:11,156 DEBUG [main] wire:73 -  >> "    "key": "sZmTdCJEQR7V9kIv36LIc4Eis2ixQREg",[\r][\n]"
+2021-03-10 16:12:11,156 DEBUG [main] wire:73 -  >> "    "contextUsername": "tushar.behera(qaapi-1)@cloverbaytechnologies.com",[\r][\n]"
+2021-03-10 16:12:11,156 DEBUG [main] wire:73 -  >> "    "sessionLengthInMinutes": 5[\r][\n]"
+2021-03-10 16:12:11,157 DEBUG [main] wire:73 -  >> "  }[\r][\n]"
+2021-03-10 16:12:11,157 DEBUG [main] wire:87 -  >> "}"
+2021-03-10 16:12:12,086 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-03-10 16:12:12,090 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-03-10 16:12:12,092 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-03-10 16:12:12,092 DEBUG [main] wire:73 -  << "Vary: Accept[\r][\n]"
+2021-03-10 16:12:12,093 DEBUG [main] wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2021-03-10 16:12:12,093 DEBUG [main] wire:73 -  << "Link: </apiUser.xml>; rel="application/xml"[\r][\n]"
+2021-03-10 16:12:12,094 DEBUG [main] wire:73 -  << "Date: Wed, 10 Mar 2021 10:42:11 GMT[\r][\n]"
+2021-03-10 16:12:12,094 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:12:12,096 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-03-10 16:12:12,097 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-03-10 16:12:12,097 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2021-03-10 16:12:12,098 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-03-10 16:12:12,098 DEBUG [main] headers:265 - << Vary: Accept
+2021-03-10 16:12:12,099 DEBUG [main] headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2021-03-10 16:12:12,099 DEBUG [main] headers:265 - << Link: </apiUser.xml>; rel="application/xml"
+2021-03-10 16:12:12,100 DEBUG [main] headers:265 - << Date: Wed, 10 Mar 2021 10:42:11 GMT
+2021-03-10 16:12:12,107 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-03-10 16:12:12,134 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-03-10 16:12:12,135 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-03-10 16:12:12,167  INFO [main] Assuresign:40 - Requeste Submited
+2021-03-10 16:12:12,176 DEBUG [main] wire:73 -  << "400[\r][\n]"
+2021-03-10 16:12:12,177 DEBUG [main] wire:87 -  << "{"messages":[],"result":{"token":"eyJhbGciOiJSUzUxMiIsImtpZCI6IjIwMTktMDUtMjgiLCJ0eXAiOiJKV1QiLCJqa3UiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQvYXBpL3YzLjcvYXV0aGVudGljYXRpb24va2V5cyJ9.eyJzdWIiOiJ0dXNoYXIuYmVoZXJhKHFhYXBpLTEpQGNsb3ZlcmJheXRlY2hub2xvZ2llcy5jb20iLCJpYXQiOjE2MTUzNzI5MzIsImp0aSI6IjhlODM3ZTMzLThiMzYtNDBjNi05YmQyLWFjZTcwMGIwNjMwOCIsImFzc3VyZXNpZ25faWRlbnRpdHkiOiJ7XCJhdXRoX2luZm9cIjp7XCJhenVyZV9hZFwiOnt9fSxcImF1dGhfdHlwZVwiOlwiQXNzdXJlU2lnbkFwaUtleVwiLFwiZW1haWxcIjpcInR1c2hhci5iZWhlcmEocWFhcGktMSlAY2xvdmVyYmF5dGVjaG5vbG9naWVzLmNvbVwiLFwiZnVsbF9uYW1lXCI6XCJUdXNoYXIgQmVoZXJhXCIsXCJpZFwiOlwiYjI2YzA5MGQtYzNhNi00NjQ5LWI5MWUtYWNlNjAxM2EwN2M2XCIsXCJzZXNzaW9uX2lkXCI6XCI4ZTgzN2UzMy04YjM2LTQwYzYtOWJkMi1hY2U3MDBiMDYzMDhcIixcImxvY2FsZVwiOlwiZW4tVVNcIixcIm1vYmlsZV9waG9uZVwiOm51bGwsXCJvcmdhbml6YXRpb25fbmFtZVwiOlwiUUEgQVBJIEF1dG9tYXRpb25cIixcIm9yZ2FuaXphdGlvbl9pZFwiOlwiMDM5N2QzYWItYTMyZS00NDlmLWFiZTAtYWNlNjAxMDBkNDMzXCIsXCJ0aW1lem9uZVwiOlwiRWFzdGVybiBTdGFuZGFyZCBUaW1lXCIsXCJhcGlfdXNlcl9pZFwiOlwiN2EyMzhjM2MtNTdiN"
+2021-03-10 16:12:12,178 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:12:12,180 DEBUG [main] wire:73 -  << "30B[\r][\n]"
+2021-03-10 16:12:12,180 DEBUG [main] wire:87 -  << "i00MDlkLWFkYjYtYWNlNzAwNDUwODkzXCJ9IiwicGVybWlzc2lvbnMiOiJbXSIsIm5iZiI6MTYxNTM3MjkzMiwiZXhwIjoxNjE1MzczMjMyLCJpc3MiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQiLCJhdWQiOiJbXCJodHRwczovL25hMS5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vc2IuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL3d3dy5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vZXUxLmFzc3VyZXNpZ24ubmV0L1wiLFwiaHR0cHM6Ly9jYTEuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXRcIl0ifQ.imCRIurVwiELjKrhJd8YthvQrqkpI5QbM1t5Vx1kGNSMx1otDNxdKOwIfFhR7Zj9HCDruYPuBY9LkdUeDhP9iqCh9zO3JcqwzGru7Wn-B4cDfdGTRqdM_J7paqPtKtY5ZDSOc9A34yeuYweaSRBROde1iNd4uMOTlLJLTTr4LU7zkK1p5xUmuCuuQNl-Qc9vcqqCV8MrFxCYsOH1BzCN02u1dnqAQuKVj5nspk2Sb6EGBQCXlknrSipSQ8-6K4C6OtPjN8Ujo6ykp616z4lzRiTdADTNYnLS7yr_sAfvuskb-Jrn933nS0YI2pCVKSRafQuclNfgjwOt4rWKLKSfuA"}}"
+2021-03-10 16:12:12,181 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:12:12,182 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2021-03-10 16:12:12,183 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:12:12,183 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e6d4780
+2021-03-10 16:12:12,185 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-03-10 16:12:12,695  INFO [main] Assuresign:37 - Getting Response Code
+2021-03-10 16:12:12,695  INFO [main] Assuresign:39 - 200
+2021-03-10 16:12:12,738 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:12:12,739 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:12:12,740 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:12:12,741 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:12:12,741 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:12:12,961 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:12:12,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:12:12,963 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:12:12,963 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:12:12,964 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:13:46,466  INFO [main] Assuresign:26 - Properties file loaded
+2021-03-10 16:13:46,639  INFO [main] Assuresign:35 - Payload generated
+2021-03-10 16:13:47,919 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://account.assuresign.net:443
+2021-03-10 16:13:48,237 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to account.assuresign.net:443
+2021-03-10 16:13:50,320 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-03-10 16:13:50,322 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-03-10 16:13:50,322 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-03-10 16:13:50,323 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-03-10 16:13:50,323 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-03-10 16:13:50,324 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:13:50,324 DEBUG [main] wire:73 -  >> "POST /api/v3.7/authentication/apiUser HTTP/1.1[\r][\n]"
+2021-03-10 16:13:50,325 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-03-10 16:13:50,326 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-03-10 16:13:50,326 DEBUG [main] wire:73 -  >> "Content-Length: 232[\r][\n]"
+2021-03-10 16:13:50,326 DEBUG [main] wire:73 -  >> "Host: account.assuresign.net[\r][\n]"
+2021-03-10 16:13:50,326 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-03-10 16:13:50,328 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)[\r][\n]"
+2021-03-10 16:13:50,328 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-03-10 16:13:50,329 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-03-10 16:13:50,329 DEBUG [main] headers:278 - >> POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:13:50,329 DEBUG [main] headers:281 - >> Accept: */*
+2021-03-10 16:13:50,329 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-03-10 16:13:50,330 DEBUG [main] headers:281 - >> Content-Length: 232
+2021-03-10 16:13:50,330 DEBUG [main] headers:281 - >> Host: account.assuresign.net
+2021-03-10 16:13:50,330 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-03-10 16:13:50,331 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)
+2021-03-10 16:13:50,331 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-03-10 16:13:50,331 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2021-03-10 16:13:50,332 DEBUG [main] wire:73 -  >> "  "request": {[\r][\n]"
+2021-03-10 16:13:50,332 DEBUG [main] wire:73 -  >> "    "apiUsername": "TestAPIAutomation_FxW9nmNf",[\r][\n]"
+2021-03-10 16:13:50,332 DEBUG [main] wire:73 -  >> "    "key": "sZmTdCJEQR7V9kIv36LIc4Eis2ixQREg",[\r][\n]"
+2021-03-10 16:13:50,333 DEBUG [main] wire:73 -  >> "    "contextUsername": "tushar.behera(qaapi-1)@cloverbaytechnologies.com",[\r][\n]"
+2021-03-10 16:13:50,333 DEBUG [main] wire:73 -  >> "    "sessionLengthInMinutes": 5[\r][\n]"
+2021-03-10 16:13:50,333 DEBUG [main] wire:73 -  >> "  }[\r][\n]"
+2021-03-10 16:13:50,334 DEBUG [main] wire:87 -  >> "}"
+2021-03-10 16:13:51,024 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-03-10 16:13:51,028 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-03-10 16:13:51,030 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-03-10 16:13:51,031 DEBUG [main] wire:73 -  << "Vary: Accept[\r][\n]"
+2021-03-10 16:13:51,032 DEBUG [main] wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2021-03-10 16:13:51,032 DEBUG [main] wire:73 -  << "Link: </apiUser.xml>; rel="application/xml"[\r][\n]"
+2021-03-10 16:13:51,033 DEBUG [main] wire:73 -  << "Date: Wed, 10 Mar 2021 10:43:51 GMT[\r][\n]"
+2021-03-10 16:13:51,034 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:13:51,036 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-03-10 16:13:51,037 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-03-10 16:13:51,037 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2021-03-10 16:13:51,038 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-03-10 16:13:51,038 DEBUG [main] headers:265 - << Vary: Accept
+2021-03-10 16:13:51,039 DEBUG [main] headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2021-03-10 16:13:51,039 DEBUG [main] headers:265 - << Link: </apiUser.xml>; rel="application/xml"
+2021-03-10 16:13:51,039 DEBUG [main] headers:265 - << Date: Wed, 10 Mar 2021 10:43:51 GMT
+2021-03-10 16:13:51,047 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-03-10 16:13:51,069 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-03-10 16:13:51,069 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-03-10 16:13:51,086  INFO [main] Assuresign:40 - Requeste Submited
+2021-03-10 16:13:51,097 DEBUG [main] wire:73 -  << "400[\r][\n]"
+2021-03-10 16:13:51,097 DEBUG [main] wire:87 -  << "{"messages":[],"result":{"token":"eyJhbGciOiJSUzUxMiIsImtpZCI6IjIwMTktMDUtMjgiLCJ0eXAiOiJKV1QiLCJqa3UiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQvYXBpL3YzLjcvYXV0aGVudGljYXRpb24va2V5cyJ9.eyJzdWIiOiJ0dXNoYXIuYmVoZXJhKHFhYXBpLTEpQGNsb3ZlcmJheXRlY2hub2xvZ2llcy5jb20iLCJpYXQiOjE2MTUzNzMwMzEsImp0aSI6IjU1ZjhjZDVmLWY4NzUtNDc3OS05MmI5LWFjZTcwMGIwZDczYyIsImFzc3VyZXNpZ25faWRlbnRpdHkiOiJ7XCJhdXRoX2luZm9cIjp7XCJhenVyZV9hZFwiOnt9fSxcImF1dGhfdHlwZVwiOlwiQXNzdXJlU2lnbkFwaUtleVwiLFwiZW1haWxcIjpcInR1c2hhci5iZWhlcmEocWFhcGktMSlAY2xvdmVyYmF5dGVjaG5vbG9naWVzLmNvbVwiLFwiZnVsbF9uYW1lXCI6XCJUdXNoYXIgQmVoZXJhXCIsXCJpZFwiOlwiYjI2YzA5MGQtYzNhNi00NjQ5LWI5MWUtYWNlNjAxM2EwN2M2XCIsXCJzZXNzaW9uX2lkXCI6XCI1NWY4Y2Q1Zi1mODc1LTQ3NzktOTJiOS1hY2U3MDBiMGQ3M2NcIixcImxvY2FsZVwiOlwiZW4tVVNcIixcIm1vYmlsZV9waG9uZVwiOm51bGwsXCJvcmdhbml6YXRpb25fbmFtZVwiOlwiUUEgQVBJIEF1dG9tYXRpb25cIixcIm9yZ2FuaXphdGlvbl9pZFwiOlwiMDM5N2QzYWItYTMyZS00NDlmLWFiZTAtYWNlNjAxMDBkNDMzXCIsXCJ0aW1lem9uZVwiOlwiRWFzdGVybiBTdGFuZGFyZCBUaW1lXCIsXCJhcGlfdXNlcl9pZFwiOlwiN2EyMzhjM2MtNTdiN"
+2021-03-10 16:13:51,098 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:13:51,100 DEBUG [main] wire:73 -  << "30B[\r][\n]"
+2021-03-10 16:13:51,101 DEBUG [main] wire:87 -  << "i00MDlkLWFkYjYtYWNlNzAwNDUwODkzXCJ9IiwicGVybWlzc2lvbnMiOiJbXSIsIm5iZiI6MTYxNTM3MzAzMSwiZXhwIjoxNjE1MzczMzMxLCJpc3MiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQiLCJhdWQiOiJbXCJodHRwczovL25hMS5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vc2IuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL3d3dy5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vZXUxLmFzc3VyZXNpZ24ubmV0L1wiLFwiaHR0cHM6Ly9jYTEuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXRcIl0ifQ.nl7wXqiDb0e7v7GnD3mjPt8L9ZFT8tsrwLFF1lqc3vwYZZia538uWz3xcTgRBJ3lmNj4O8aqfz1yqtQHq_8GNRKgNcmyl-OhI1mJUIiJHrafwZrn2sSmWPAcqiR_Zjk7yeln14yuAQOKP4vDXYdERRdqtMJnscSuv3bWM6UDDHEwyu2ngRxa2E-q7nPpjTL7cczlhR5Y6tt6xm-wF1EPgwAuaeN-80z1MO6Fke1nj0zdjxHgg3Y8tyiIcLcWfa5IMJOWhlkpGsNYZxb7G6q50U-qBiDc7m1jkXiFTgBmIfA65YAhh91V_TppWqq9H4JLAVtf-k6_wAdfYKkggVc_og"}}"
+2021-03-10 16:13:51,101 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:13:51,101 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2021-03-10 16:13:51,102 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:13:51,102 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e6d4780
+2021-03-10 16:13:51,103 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-03-10 16:13:51,600  INFO [main] Assuresign:37 - Getting Response Code
+2021-03-10 16:13:51,601  INFO [main] Assuresign:39 - 200
+2021-03-10 16:13:51,659 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:13:51,661 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:13:51,664 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:13:51,665 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:13:51,666 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:13:51,894 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:13:51,895 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:13:51,895 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:13:51,896 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:13:51,896 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:14:00,960  INFO [main] Assuresign:26 - Properties file loaded
+2021-03-10 16:14:01,149  INFO [main] Assuresign:35 - Payload generated
+2021-03-10 16:14:02,401 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://account.assuresign.net:443
+2021-03-10 16:14:02,526 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to account.assuresign.net:443
+2021-03-10 16:14:04,436 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-03-10 16:14:04,438 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-03-10 16:14:04,439 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-03-10 16:14:04,440 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-03-10 16:14:04,440 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-03-10 16:14:04,441 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:14:04,441 DEBUG [main] wire:73 -  >> "POST /api/v3.7/authentication/apiUser HTTP/1.1[\r][\n]"
+2021-03-10 16:14:04,442 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-03-10 16:14:04,442 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-03-10 16:14:04,443 DEBUG [main] wire:73 -  >> "Content-Length: 232[\r][\n]"
+2021-03-10 16:14:04,443 DEBUG [main] wire:73 -  >> "Host: account.assuresign.net[\r][\n]"
+2021-03-10 16:14:04,443 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-03-10 16:14:04,445 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)[\r][\n]"
+2021-03-10 16:14:04,446 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-03-10 16:14:04,446 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-03-10 16:14:04,446 DEBUG [main] headers:278 - >> POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:14:04,447 DEBUG [main] headers:281 - >> Accept: */*
+2021-03-10 16:14:04,447 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-03-10 16:14:04,448 DEBUG [main] headers:281 - >> Content-Length: 232
+2021-03-10 16:14:04,448 DEBUG [main] headers:281 - >> Host: account.assuresign.net
+2021-03-10 16:14:04,448 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-03-10 16:14:04,448 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)
+2021-03-10 16:14:04,449 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-03-10 16:14:04,449 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2021-03-10 16:14:04,449 DEBUG [main] wire:73 -  >> "  "request": {[\r][\n]"
+2021-03-10 16:14:04,450 DEBUG [main] wire:73 -  >> "    "apiUsername": "TestAPIAutomation_FxW9nmNf",[\r][\n]"
+2021-03-10 16:14:04,451 DEBUG [main] wire:73 -  >> "    "key": "sZmTdCJEQR7V9kIv36LIc4Eis2ixQREg",[\r][\n]"
+2021-03-10 16:14:04,452 DEBUG [main] wire:73 -  >> "    "contextUsername": "tushar.behera(qaapi-1)@cloverbaytechnologies.com",[\r][\n]"
+2021-03-10 16:14:04,454 DEBUG [main] wire:73 -  >> "    "sessionLengthInMinutes": 5[\r][\n]"
+2021-03-10 16:14:04,456 DEBUG [main] wire:73 -  >> "  }[\r][\n]"
+2021-03-10 16:14:04,457 DEBUG [main] wire:87 -  >> "}"
+2021-03-10 16:14:05,173 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-03-10 16:14:05,178 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-03-10 16:14:05,179 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-03-10 16:14:05,180 DEBUG [main] wire:73 -  << "Vary: Accept[\r][\n]"
+2021-03-10 16:14:05,182 DEBUG [main] wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2021-03-10 16:14:05,183 DEBUG [main] wire:73 -  << "Link: </apiUser.xml>; rel="application/xml"[\r][\n]"
+2021-03-10 16:14:05,184 DEBUG [main] wire:73 -  << "Date: Wed, 10 Mar 2021 10:44:05 GMT[\r][\n]"
+2021-03-10 16:14:05,185 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:05,187 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-03-10 16:14:05,188 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-03-10 16:14:05,189 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2021-03-10 16:14:05,190 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-03-10 16:14:05,190 DEBUG [main] headers:265 - << Vary: Accept
+2021-03-10 16:14:05,191 DEBUG [main] headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2021-03-10 16:14:05,191 DEBUG [main] headers:265 - << Link: </apiUser.xml>; rel="application/xml"
+2021-03-10 16:14:05,192 DEBUG [main] headers:265 - << Date: Wed, 10 Mar 2021 10:44:05 GMT
+2021-03-10 16:14:05,199 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-03-10 16:14:05,222 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-03-10 16:14:05,222 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-03-10 16:14:05,248  INFO [main] Assuresign:40 - Requeste Submited
+2021-03-10 16:14:05,259 DEBUG [main] wire:73 -  << "400[\r][\n]"
+2021-03-10 16:14:05,260 DEBUG [main] wire:87 -  << "{"messages":[],"result":{"token":"eyJhbGciOiJSUzUxMiIsImtpZCI6IjIwMTktMDUtMjgiLCJ0eXAiOiJKV1QiLCJqa3UiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQvYXBpL3YzLjcvYXV0aGVudGljYXRpb24va2V5cyJ9.eyJzdWIiOiJ0dXNoYXIuYmVoZXJhKHFhYXBpLTEpQGNsb3ZlcmJheXRlY2hub2xvZ2llcy5jb20iLCJpYXQiOjE2MTUzNzMwNDUsImp0aSI6IjFmOWEzY2FkLThhZTAtNGRlOS1iMjFjLWFjZTcwMGIwZTdkMiIsImFzc3VyZXNpZ25faWRlbnRpdHkiOiJ7XCJhdXRoX2luZm9cIjp7XCJhenVyZV9hZFwiOnt9fSxcImF1dGhfdHlwZVwiOlwiQXNzdXJlU2lnbkFwaUtleVwiLFwiZW1haWxcIjpcInR1c2hhci5iZWhlcmEocWFhcGktMSlAY2xvdmVyYmF5dGVjaG5vbG9naWVzLmNvbVwiLFwiZnVsbF9uYW1lXCI6XCJUdXNoYXIgQmVoZXJhXCIsXCJpZFwiOlwiYjI2YzA5MGQtYzNhNi00NjQ5LWI5MWUtYWNlNjAxM2EwN2M2XCIsXCJzZXNzaW9uX2lkXCI6XCIxZjlhM2NhZC04YWUwLTRkZTktYjIxYy1hY2U3MDBiMGU3ZDJcIixcImxvY2FsZVwiOlwiZW4tVVNcIixcIm1vYmlsZV9waG9uZVwiOm51bGwsXCJvcmdhbml6YXRpb25fbmFtZVwiOlwiUUEgQVBJIEF1dG9tYXRpb25cIixcIm9yZ2FuaXphdGlvbl9pZFwiOlwiMDM5N2QzYWItYTMyZS00NDlmLWFiZTAtYWNlNjAxMDBkNDMzXCIsXCJ0aW1lem9uZVwiOlwiRWFzdGVybiBTdGFuZGFyZCBUaW1lXCIsXCJhcGlfdXNlcl9pZFwiOlwiN2EyMzhjM2MtNTdiN"
+2021-03-10 16:14:05,262 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:05,264 DEBUG [main] wire:73 -  << "30B[\r][\n]"
+2021-03-10 16:14:05,265 DEBUG [main] wire:87 -  << "i00MDlkLWFkYjYtYWNlNzAwNDUwODkzXCJ9IiwicGVybWlzc2lvbnMiOiJbXSIsIm5iZiI6MTYxNTM3MzA0NSwiZXhwIjoxNjE1MzczMzQ1LCJpc3MiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQiLCJhdWQiOiJbXCJodHRwczovL25hMS5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vc2IuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL3d3dy5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vZXUxLmFzc3VyZXNpZ24ubmV0L1wiLFwiaHR0cHM6Ly9jYTEuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXRcIl0ifQ.TK9lhUZQ6JDnCLuhiftslRYY0s9C8vl05eoGk7b2fRmHXywygR6bgntRQUqGtvGCh3v8gQQSDgYvpEOESvU5SGSTCH4lSjixSF9VzBpE5v8mOg0LX0qXba1F0bgiFl77oxg2gQdGTj0OgZevv1qpNNg7bGpXBKP-6YCJO20uxL2e5UO-khjor1eawAiluKK260Yg_1wclYxlpcSjglz7kNzHilK7Pa5iZo6rGud-kj32Hg6zOQ3cuMxyvf-v7XV19OESevGwg2BEnR8NUii08ALt6VEKU2-SceSWMAhaeXWBxMWn9Got2QZgi4bnzNWh9NuQGu8KZYq7qKMUA_zQZg"}}"
+2021-03-10 16:14:05,265 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:05,266 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2021-03-10 16:14:05,266 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:05,266 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e6d4780
+2021-03-10 16:14:05,267 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-03-10 16:14:05,729  INFO [main] Assuresign:37 - Getting Response Code
+2021-03-10 16:14:05,733  INFO [main] Assuresign:39 - 200
+2021-03-10 16:14:05,764 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:14:05,766 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:14:05,767 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:14:05,768 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:14:05,768 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:14:06,006 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:14:06,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:14:06,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:14:06,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:14:06,008 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:14:33,259  INFO [main] Assuresign:26 - Properties file loaded
+2021-03-10 16:14:33,442  INFO [main] Assuresign:35 - Payload generated
+2021-03-10 16:14:34,697 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://account.assuresign.net:443
+2021-03-10 16:14:34,896 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to account.assuresign.net:443
+2021-03-10 16:14:37,097 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-03-10 16:14:37,098 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-03-10 16:14:37,098 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-03-10 16:14:37,099 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-03-10 16:14:37,099 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-03-10 16:14:37,099 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:14:37,100 DEBUG [main] wire:73 -  >> "POST /api/v3.7/authentication/apiUser HTTP/1.1[\r][\n]"
+2021-03-10 16:14:37,101 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-03-10 16:14:37,101 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-03-10 16:14:37,101 DEBUG [main] wire:73 -  >> "Content-Length: 232[\r][\n]"
+2021-03-10 16:14:37,101 DEBUG [main] wire:73 -  >> "Host: account.assuresign.net[\r][\n]"
+2021-03-10 16:14:37,102 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-03-10 16:14:37,103 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)[\r][\n]"
+2021-03-10 16:14:37,103 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-03-10 16:14:37,103 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-03-10 16:14:37,104 DEBUG [main] headers:278 - >> POST /api/v3.7/authentication/apiUser HTTP/1.1
+2021-03-10 16:14:37,104 DEBUG [main] headers:281 - >> Accept: */*
+2021-03-10 16:14:37,104 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-03-10 16:14:37,105 DEBUG [main] headers:281 - >> Content-Length: 232
+2021-03-10 16:14:37,105 DEBUG [main] headers:281 - >> Host: account.assuresign.net
+2021-03-10 16:14:37,105 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-03-10 16:14:37,105 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.1)
+2021-03-10 16:14:37,106 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-03-10 16:14:37,106 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2021-03-10 16:14:37,106 DEBUG [main] wire:73 -  >> "  "request": {[\r][\n]"
+2021-03-10 16:14:37,107 DEBUG [main] wire:73 -  >> "    "apiUsername": "TestAPIAutomation_FxW9nmNf",[\r][\n]"
+2021-03-10 16:14:37,107 DEBUG [main] wire:73 -  >> "    "key": "sZmTdCJEQR7V9kIv36LIc4Eis2ixQREg",[\r][\n]"
+2021-03-10 16:14:37,107 DEBUG [main] wire:73 -  >> "    "contextUsername": "tushar.behera(qaapi-1)@cloverbaytechnologies.com",[\r][\n]"
+2021-03-10 16:14:37,107 DEBUG [main] wire:73 -  >> "    "sessionLengthInMinutes": 5[\r][\n]"
+2021-03-10 16:14:37,108 DEBUG [main] wire:73 -  >> "  }[\r][\n]"
+2021-03-10 16:14:37,108 DEBUG [main] wire:87 -  >> "}"
+2021-03-10 16:14:37,802 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-03-10 16:14:37,807 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-03-10 16:14:37,808 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-03-10 16:14:37,810 DEBUG [main] wire:73 -  << "Vary: Accept[\r][\n]"
+2021-03-10 16:14:37,811 DEBUG [main] wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2021-03-10 16:14:37,812 DEBUG [main] wire:73 -  << "Link: </apiUser.xml>; rel="application/xml"[\r][\n]"
+2021-03-10 16:14:37,813 DEBUG [main] wire:73 -  << "Date: Wed, 10 Mar 2021 10:44:38 GMT[\r][\n]"
+2021-03-10 16:14:37,814 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:37,816 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-03-10 16:14:37,817 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-03-10 16:14:37,817 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2021-03-10 16:14:37,817 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-03-10 16:14:37,818 DEBUG [main] headers:265 - << Vary: Accept
+2021-03-10 16:14:37,818 DEBUG [main] headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2021-03-10 16:14:37,818 DEBUG [main] headers:265 - << Link: </apiUser.xml>; rel="application/xml"
+2021-03-10 16:14:37,818 DEBUG [main] headers:265 - << Date: Wed, 10 Mar 2021 10:44:38 GMT
+2021-03-10 16:14:37,823 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-03-10 16:14:37,842 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-03-10 16:14:37,843 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-03-10 16:14:37,861  INFO [main] Assuresign:40 - Requeste Submited
+2021-03-10 16:14:37,874 DEBUG [main] wire:73 -  << "400[\r][\n]"
+2021-03-10 16:14:37,874 DEBUG [main] wire:87 -  << "{"messages":[],"result":{"token":"eyJhbGciOiJSUzUxMiIsImtpZCI6IjIwMTktMDUtMjgiLCJ0eXAiOiJKV1QiLCJqa3UiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQvYXBpL3YzLjcvYXV0aGVudGljYXRpb24va2V5cyJ9.eyJzdWIiOiJ0dXNoYXIuYmVoZXJhKHFhYXBpLTEpQGNsb3ZlcmJheXRlY2hub2xvZ2llcy5jb20iLCJpYXQiOjE2MTUzNzMwNzgsImp0aSI6ImUwNDdhNDkwLWU5ZTUtNDMyNy1hZDhiLWFjZTcwMGIxMGUxMCIsImFzc3VyZXNpZ25faWRlbnRpdHkiOiJ7XCJhdXRoX2luZm9cIjp7XCJhenVyZV9hZFwiOnt9fSxcImF1dGhfdHlwZVwiOlwiQXNzdXJlU2lnbkFwaUtleVwiLFwiZW1haWxcIjpcInR1c2hhci5iZWhlcmEocWFhcGktMSlAY2xvdmVyYmF5dGVjaG5vbG9naWVzLmNvbVwiLFwiZnVsbF9uYW1lXCI6XCJUdXNoYXIgQmVoZXJhXCIsXCJpZFwiOlwiYjI2YzA5MGQtYzNhNi00NjQ5LWI5MWUtYWNlNjAxM2EwN2M2XCIsXCJzZXNzaW9uX2lkXCI6XCJlMDQ3YTQ5MC1lOWU1LTQzMjctYWQ4Yi1hY2U3MDBiMTBlMTBcIixcImxvY2FsZVwiOlwiZW4tVVNcIixcIm1vYmlsZV9waG9uZVwiOm51bGwsXCJvcmdhbml6YXRpb25fbmFtZVwiOlwiUUEgQVBJIEF1dG9tYXRpb25cIixcIm9yZ2FuaXphdGlvbl9pZFwiOlwiMDM5N2QzYWItYTMyZS00NDlmLWFiZTAtYWNlNjAxMDBkNDMzXCIsXCJ0aW1lem9uZVwiOlwiRWFzdGVybiBTdGFuZGFyZCBUaW1lXCIsXCJhcGlfdXNlcl9pZFwiOlwiN2EyMzhjM2MtNTdiN"
+2021-03-10 16:14:37,875 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:37,876 DEBUG [main] wire:73 -  << "30B[\r][\n]"
+2021-03-10 16:14:37,877 DEBUG [main] wire:87 -  << "i00MDlkLWFkYjYtYWNlNzAwNDUwODkzXCJ9IiwicGVybWlzc2lvbnMiOiJbXSIsIm5iZiI6MTYxNTM3MzA3OCwiZXhwIjoxNjE1MzczMzc4LCJpc3MiOiJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXQiLCJhdWQiOiJbXCJodHRwczovL25hMS5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vc2IuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL3d3dy5hc3N1cmVzaWduLm5ldC9cIixcImh0dHBzOi8vZXUxLmFzc3VyZXNpZ24ubmV0L1wiLFwiaHR0cHM6Ly9jYTEuYXNzdXJlc2lnbi5uZXQvXCIsXCJodHRwczovL2FjY291bnQuYXNzdXJlc2lnbi5uZXRcIl0ifQ.hxoxL8FyY-xqTMakOhtKAbsPxYilWufX2FChQF0DBfygVnOnWBMIwpPCnExqWGxOHNtRNXNmcASaUAiQIdVZ5l_a9_4lKYoA6hikz_GOikmSyYl7zjsnEi1fEF5yDtN7b-_yZNCLEq6URfnUy6o883fZQ7jQIu8_Q0hf2OH0BcKcBx5qXq9e9xKE7I-Knvohde_XIFulxOw24AylPYal78YtvFqZ94w8ubbmP8CWdPbDPXFOjyPoak3YfHaJe1ZyBkIRlXeH6HDA-SCFoUbT3ws7fuDv1tl3rUw7Zr2lFuCWozlmU5e6oy0HFo1QvAJsljdeZkHO8Pemodj5ZecZiw"}}"
+2021-03-10 16:14:37,877 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:37,878 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2021-03-10 16:14:37,878 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-03-10 16:14:37,878 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e6d4780
+2021-03-10 16:14:37,880 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-03-10 16:14:38,356  INFO [main] Assuresign:37 - Getting Response Code
+2021-03-10 16:14:38,357  INFO [main] Assuresign:39 - 200
+2021-03-10 16:14:38,394 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:14:38,395 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:14:38,396 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:14:38,397 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:14:38,397 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-03-10 16:14:38,610 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-03-10 16:14:38,610 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-03-10 16:14:38,611 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-03-10 16:14:38,611 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-03-10 16:14:38,612 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
