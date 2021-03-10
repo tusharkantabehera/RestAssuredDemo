@@ -19,6 +19,7 @@ import io.restassured.specification.RequestSpecification;
 import net.assuresign.base.Base;
 import net.assuresign.utils.BaseAssertion;
 import net.assuresign.utils.JsonUtils;
+import net.assuresign.utils.TestUtils;
 
 public class TestAPI extends Base{
 
@@ -28,7 +29,7 @@ public class TestAPI extends Base{
 	public String responseBody;
 	public String requestBody;
 	
-	@Test
+	@Test(enabled=false)
 	public void getTokenBearer() throws IOException
 	{
 		String payload = JsonUtils.payloadGenerator("apiUser.json");
@@ -49,12 +50,11 @@ public class TestAPI extends Base{
 	@Test
 	public void submitSign()
 	{
-		
+		TestUtils.sendEmail();
 	}
 	
 	
-	
-	
+
 	@BeforeTest
 	public void setExtent(){
 		extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/ExtentReport.html", true);
